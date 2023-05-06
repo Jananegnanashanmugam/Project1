@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Poppins:wght@100;300;400;500;600;800;900&display=swap");
+
+span {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./vivid-transparent-orange-autumn-leaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.naviten {
+  color: white;
+  margin-left: 50px;
+}
+.naviten:hover {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+.logo {
+  font-family: "Cinzel", serif;
+  color: white;
+  font-size: 30px;
+}
+.logo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+.clickables {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+}
+.clickables:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
+h3 {
+  text-align: center;
+}
